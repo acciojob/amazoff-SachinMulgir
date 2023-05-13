@@ -1,6 +1,6 @@
 package com.driver.test;
 
-import com.driver.Model.Application;
+import com.driver.Application;
 import org.junit.jupiter.api.MethodOrderer;
 
 import org.junit.jupiter.api.TestMethodOrder;

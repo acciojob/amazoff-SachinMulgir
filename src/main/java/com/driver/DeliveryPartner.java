@@ -1,5 +1,15 @@
-package com.driver.Model;
+package com.driver;
 
+
+import com.fasterxml.jackson.annotation.JsonAnyGetter;
+import lombok.AllArgsConstructor;
+import lombok.Getter;
+import lombok.NoArgsConstructor;
+import lombok.Setter;
+
+
+@AllArgsConstructor
+@NoArgsConstructor
 public class DeliveryPartner {
 
     private String id;
@@ -17,7 +27,9 @@ public class DeliveryPartner {
     public Integer getNumberOfOrders(){
         return numberOfOrders;
     }
-
+    public void setId(String id){
+        this.id = id;
+    }
     public void setNumberOfOrders(Integer numberOfOrders) {
         this.numberOfOrders = numberOfOrders;
     }
