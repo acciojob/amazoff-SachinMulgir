@@ -8,14 +8,14 @@ import lombok.Setter;
 import java.util.*;
 
 
-@Setter
-@AllArgsConstructor
-@NoArgsConstructor
+
 public class Order {
 
     private String id;
     private int deliveryTime;
 
+    public Order(){
+    }
     public Order(String id, String deliveryTime) {
         setDeliveryTime(deliveryTime);
         this.id = id;
