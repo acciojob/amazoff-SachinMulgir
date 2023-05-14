@@ -8,7 +8,7 @@ import lombok.NoArgsConstructor;
 import lombok.Setter;
 
 
-@AllArgsConstructor
+
 public class DeliveryPartner {
 
     private String id;
